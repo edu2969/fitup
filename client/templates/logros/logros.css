@@ -1,0 +1,18 @@
+.graficos {
+  display: flex;
+}
+
+.grafico {
+  text-align: center;
+  padding: 4px;
+}
+
+.grafico span {
+  font-size: 11px;
+}
+
+.texto-central {
+  font-weight: lighter;
+  fill: white;
+  font-size: 30px;
+}

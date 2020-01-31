@@ -1,0 +1,58 @@
+.contenedor .capa-foto {
+  position: absolute;
+  background: url(img/background-login.jpg);
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: opacity(.05);
+}
+
+.contenedor h1 {
+  font-weight: lighter;
+}
+
+.contenedor .formulario {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  margin: 30% 10%;
+  display: none;
+}
+
+.contenedor img {
+  width: 35%;
+}
+
+.contenedor .formulario .campo {
+  position: relative;
+  width: 100%;
+  height: 3em;
+  display: block;
+}
+
+.contenedor .formulario .campo i.material-icons {
+  position: absolute;
+  color: darkgrey;
+  top: 15px;
+  padding-left: 14px;
+}
+
+.contenedor .formulario button {
+  width: 207px;
+}
+
+.contenedor .formulario .campo input {
+  padding-left: 32px;
+}
+
+.contenedor .formulario button {
+  margin: 1em auto;
+}
+
+.contenedor a {
+  color: skyblue;
+  font-size: 11px;
+}

@@ -1,0 +1,100 @@
+.info {
+  padding: 0 1em;
+  text-align: left;
+}
+
+.info .creditos {
+  display: flex;
+}
+
+.info .creditos .resumen {
+  margin-top: -30px;
+}
+
+.info .creditos button {
+  height: 42px;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.info p {
+  width: 100%;
+  text-align: center;
+  margin-top: -4px;
+  margin-bottom: 4px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 4px 0;
+}
+
+.contenedor-horarios {
+  height: 56vh;
+  overflow: scroll;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 .2em;
+  padding: 7px;
+}
+
+.contenedor-horarios .barra-dia {
+  margin: .2em;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: .5em;
+}
+
+.contenedor-horarios .barra-dia .fecha {
+  text-align: left;
+  color: limegreen;
+  font-size: 10px;
+}
+
+.contenedor-horarios .barra-dia .barra {
+  position: relative;
+  border-radius: 6px;
+  margin: 4px;
+  padding: 6px;
+  height: 42px;
+}
+
+.contenedor-horarios .barra-dia .barra.verde {
+  background-color: white;
+  color: limegreen;
+}
+
+.contenedor-horarios .barra-dia .barra.gris {
+  background-color: lightgray;
+  color: darkslategrey;
+}
+
+.contenedor-horarios .barra-dia .barra .check {
+  position: absolute;
+  top: 6px;
+  left: 6px;  
+}
+
+.contenedor-horarios .barra-dia .barra .hora {
+  color: white;
+  position: absolute;
+  top: 6px;
+  left: 42px;
+  font-size: 11px;
+}
+
+.contenedor-horarios .barra-dia .barra .cupos {
+  position: absolute;
+  top: 6px;
+  right: 12px;
+  font-size: 14px;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.contenedor-horarios .barra-dia .barra.verde .cupos {
+  color: limegreen;
+  border: 2px solid limegreen;
+}
+
+.contenedor-horarios .barra-dia .barra.gris .cupos {
+  color: orangered;
+  border: 2px solid orangered;
+}

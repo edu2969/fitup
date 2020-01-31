@@ -1,0 +1,38 @@
+<template name="panel">
+  <div id="contenedor-panel" class="contenedor capa-gradiante azul">
+    <div class="menu"><i class="material-icons">menu</i></div>
+    <section name="contenido">
+      <div class="area agenda">
+        {{> agenda}}
+      </div>
+      <div class="area sesion">
+        {{> sesion}}
+      </div>
+      <div class="area logros">
+        {{> logros}}
+      </div>
+      <div class="area historia">
+        {{> camara}}
+      </div>
+    </section>
+    <section name="pie">
+      <div class="accion agenda activo">
+        <i class="material-icons">schedule</i>
+        <p>Agenda</p>
+      </div>
+      <div class="accion sesion">
+        <i class="material-icons">feedback</i>
+        <p>Sesion</p>
+      </div>
+      <div class="accion logros">
+        <i class="material-icons">emoji_events</i>
+        <p>Logros</p>
+      </div>
+      <div class="accion historia">
+        <i class="material-icons">camera</i>
+        <p>Progreso</p>
+      </div>
+    </section>
+    {{> menu}}
+  </div>
+</template>

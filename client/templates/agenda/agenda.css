@@ -28,8 +28,9 @@
 }
 
 .contenedor-horarios {
-  height: 56vh;
-  overflow: scroll;
+  height: calc(100vh - 212px);
+  overflow-y: scroll;
+  overflow-x: hidden;
   background-color: rgba(255, 255, 255, 0.2);
   margin: 0 .2em;
   padding: 7px;

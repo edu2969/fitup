@@ -6,7 +6,7 @@ Template.login.helpers({
 });
 
 Template.login.events({
-  "click .formulario button"() {
+  "click .formulario #btn-login"() {
     FlowRouter.go("/panel");
   },
   "click #link-registrame"() {
@@ -16,6 +16,9 @@ Template.login.events({
     UIUtils.toggleVisible('formulario', 'olvido');
   },
   "click #link-login"() {
+    UIUtils.toggleVisible('formulario', 'login');
+  },
+  "click .formulario #btn-enviar, click .formulario #btn-registrar"() {
     UIUtils.toggleVisible('formulario', 'login');
   }
 });

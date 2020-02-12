@@ -13,7 +13,7 @@
         <i class="material-icons">lock</i>
         <input type="password">
       </div>
-      <button><i class="material-icons">
+      <button id="btn-login"><i class="material-icons">
           launch
         </i> LOGIN</button>
       <div class="pie">
@@ -23,11 +23,29 @@
     </div>
     
     <div class="formulario registrame">
+      <div class="titulo">
+        <h2>Registrate!</h2>
+        <span style="font-size: 80%; margin-top: -10px">Y vive tu FitUp-Experience!</span>
+      </div>
+      
       <span>Tu nombre</span>
       <div class="campo">
-        <i class="material-icons">account_box</i>
-        <input type="email" placeholder="email / username">
+        <input type="text" placeholder="Nombre completo">
       </div>
+      <span>Nacimiento</span>
+      <div class="campo">
+        <input type="text" placeholder="DD/MM/AAAA">
+      </div>
+      <span>Género</span>
+      <div class="campo">
+        <select>
+          <option>Femenino</option>
+          <option>Masculino</option>
+        </select>
+      </div>
+      <div style="width: 100%; text-align: center">
+        <button id="btn-registrar">Registrame!</button>
+      </div>      
       <div class="pie">
         <a id="link-login">Login</a> |
         <a id="link-olvido">Olvidé mi password</a>
@@ -35,11 +53,18 @@
     </div>
     
     <div class="formulario olvido">
-      <span>Tu nombre</span>
+      <div class="titulo">
+        <h2>Recuperate!</h2>
+        <span style="font-size: 80%; margin-top: -10px">Coloca tu email y recibirás las instrucciones</span>
+      </div>
+      <span>Tu e-mail</span>
       <div class="campo">
         <i class="material-icons">account_box</i>
         <input type="email" placeholder="email / username">
       </div>
+      <div style="width: 100%; text-align: center">
+        <button id="btn-enviar">Envíar instrucciones</button>
+      </div>      
       <div class="pie">
         <a id="link-login">Login</a> |
         <a id="link-registrame">Registrame</a>

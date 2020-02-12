@@ -1,13 +1,11 @@
 .graficos {
   display: flex;
-}
-
-.grafico {
   text-align: center;
   padding: 4px;
 }
 
-.grafico span {
+.grafico span,
+.grafico-solo span {
   font-size: 11px;
 }
 
@@ -15,4 +13,9 @@
   font-weight: lighter;
   fill: white;
   font-size: 30px;
+}
+
+.grafico-solo {
+  width: 100%;
+  text-align: center;
 }

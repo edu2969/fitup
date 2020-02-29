@@ -62,8 +62,8 @@ Template.panel.events({
   "click .menu, click .contenedor-menu .cruz"() {
     document.querySelector(".contenedor-menu").classList.toggle("activo");
   },
-  "click .modal .cruz"() {
-    document.querySelector(".modal").classList.remove("activo");
+  "click .modal .cruz"(e) {
+    e.currentTarget.parentElement.parentElement.classList.remove("activo");
   }
 });
 
